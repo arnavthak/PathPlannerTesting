@@ -1,0 +1,58 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/All Systems Check": "Command",
+      "/SmartDashboard/Auto Chooser": "String Chooser",
+      "/SmartDashboard/Automation Strategy": "String Chooser",
+      "/SmartDashboard/Autonomous Mode": "String Chooser",
+      "/SmartDashboard/SystemStatus/AllSystemsCheck": "Command",
+      "/SmartDashboard/SystemStatus/ExampleSubsystem/SystemCheck": "Command",
+      "/SmartDashboard/SystemStatus/Swerve/SystemCheck": "Command"
+    },
+    "windows": {
+      "/SmartDashboard/Auto Chooser": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/SystemStatus/AllSystemsCheck": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "retained": {
+      "SmartDashboard": {
+        "Auto Chooser": {
+          "open": true
+        },
+        "open": true
+      },
+      "jetson": {
+        "aprilTags": {
+          "open": true
+        },
+        "objects": {
+          "open": true
+        },
+        "open": true
+      }
+    },
+    "transitory": {
+      "SmartDashboard": {
+        "SystemStatus": {
+          "AllSystemsCheck": {
+            "open": true
+          },
+          "open": true
+        }
+      },
+      "jetson": {
+        "open": true
+      }
+    }
+  }
+}
